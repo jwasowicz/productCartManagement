@@ -28,19 +28,14 @@ https://productcartmanagement.netlify.app/
    ```bash
    git clone https://github.com/jwasowicz/productCartManagement.git
    cd productList
-
    ```
 
-2. **Install depedencies:**
+2. **Installation**
 
    ```bash
    npm install
-   Run the application:
-
+   ng serve
    ```
 
-3. **Run the application**
-   ng serve
-
-4. **Open in browser**
+3. **Open in browser**
    Visit http://localhost:4200/ to start using the cart.
