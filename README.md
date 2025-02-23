@@ -8,28 +8,39 @@ A simple Angular-based shopping cart application that allows users to add and re
 - **Remove products:** decrease the quantity or remove products entirely.
 - **Real-time updates:** automatic price calculation and cart updates.
 - **User-friendly interface:** intuitive UI for smooth interaction.
-  
+
 ## Technology Stack
 
 - **Angular**
-- **TypeScript** 
+- **TypeScript**
 - **Services**
-  
+
+## Netlify:
+
+### Link:
+
+https://productcartmanagement.netlify.app/
+
 ## Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/jwasowicz/productCartManagement.git
    cd productList
 
+   ```
+
 2. **Install depedencies:**
+
    ```bash
    npm install
    Run the application:
 
+   ```
+
 3. **Run the application**
-ng serve
+   ng serve
 
 4. **Open in browser**
-Visit http://localhost:4200/ to start using the cart.
-
+   Visit http://localhost:4200/ to start using the cart.
