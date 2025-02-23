@@ -19,7 +19,7 @@ A simple Angular-based shopping cart application that allows users to add and re
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/jwasowicz/productCartManagement
+   git clone https://github.com/jwasowicz/productCartManagement.git
    cd productList
 
 2. **Install depedencies:**
