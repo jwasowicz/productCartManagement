@@ -38,4 +38,5 @@ https://productcartmanagement.netlify.app/
    ```
 
 3. **Open in browser**
+
    Visit http://localhost:4200/ to start using the cart.
