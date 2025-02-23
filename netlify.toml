@@ -1,6 +1,6 @@
 [build]
   command = "ng build --prod"
-  publish = "dist/product-list"
+  publish = "dist/product-list/browser"
 
 [[redirects]]
   from = "/*"
