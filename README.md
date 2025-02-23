@@ -1,27 +1,35 @@
-# ProductList
+# Real-time shopping cart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+A simple Angular-based shopping cart application that allows users to add and remove products while dynamically updating the total price in real-time. This project showcases efficient state management and reactive UI updates for a seamless shopping experience.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Add products:** increase the quantity of products in the cart.
+- **Remove products:** decrease the quantity or remove products entirely.
+- **Real-time updates:** automatic price calculation and cart updates.
+- **User-friendly interface:** intuitive UI for smooth interaction.
+  
+## Technology Stack
 
-## Code scaffolding
+- **Angular**
+- **TypeScript** 
+- **Services**
+  
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/jwasowicz/productCartManagement.git
+   cd productList
 
-## Build
+2. **Install depedencies:**
+   ```bash
+   npm install
+   Run the application:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **Run the application**
+ng serve
 
-## Running unit tests
+4. **Open in browser**
+Visit http://localhost:4200/ to start using the cart.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
