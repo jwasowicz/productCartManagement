@@ -2,6 +2,10 @@
 
 A simple Angular-based shopping cart application that allows users to add and remove products while dynamically updating the total price in real-time. This project showcases efficient state management and reactive UI updates for a seamless shopping experience.
 
+## Note
+
+The project at the moment is not adapted to mobile devices but this will be changed in the future.
+
 ## Features
 
 - **Add products:** increase the quantity of products in the cart.
