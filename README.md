@@ -4,7 +4,7 @@ A simple Angular-based shopping cart application that allows users to add and re
 
 ## Note
 
-The project at the moment is not adapted to mobile devices but this will be changed in the future.
+The project at the moment is not 100% adapted to mobile devices but this will be changed in the future.
 
 ## Features
 
