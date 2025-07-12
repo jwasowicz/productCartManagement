@@ -1,22 +1,12 @@
-import { Component, inject, ViewEncapsulation } from '@angular/core';
-import { HeaderComponent } from './header/header.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { CartComponent } from './cart/cart.component';
-import { OrderComponent } from './order/order/order.component';
-import { CartService } from './services/cart.service';
+import { Component } from "@angular/core";
+
+import { RouterOutlet } from "@angular/router";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  imports: [
-    HeaderComponent,
-    ProductListComponent,
-    CartComponent,
-    OrderComponent,
-  ],
+  templateUrl: "./app.component.html",
+  styleUrl: "./app.component.css",
+  imports: [RouterOutlet],
 })
-export class AppComponent {
-  cartService = inject(CartService);
-}
+export class AppComponent {}
